@@ -1,0 +1,16 @@
+.lightbox {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  width: 20vw;
+  height: 20vh;
+  background-color: white;
+  /* box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.5); //box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */ }
+
+.lightbox-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); }

@@ -1,0 +1,22 @@
+.lightbox {
+  $lightbox-width: 20vw;
+  $lightbox-height: 20vh;
+
+  position: absolute; //takes it out of the document flow of the page
+  top: 50vh - $lightbox-height/2;  //percentage relative to the view port height, vh - viewport height unit
+  left: 50vw - $lightbox-width/2;
+  width: $lightbox-width;  //percentage of its containers width
+  height: $lightbox-height;
+  background-color: white;
+  /* box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.5); //box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */
+}
+
+
+.lightbox-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;  // define top and left when using position:absolute to get rid of the browser defaults
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
