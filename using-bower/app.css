@@ -32,10 +32,11 @@ body {
     display: table;
     clear: both; }
 
-section {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  section:last-child {
-    margin-right: 0; }
+@media screen and (min-width: 480px) {
+  section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    section:last-child {
+      margin-right: 0; } }
