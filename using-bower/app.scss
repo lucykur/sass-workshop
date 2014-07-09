@@ -1,4 +1,7 @@
 @import "../bower_components/bourbon/dist/bourbon";
+$visual-grid-color: grey;
+$visual-grid: true;
+
 @import "../bower_components/neat/app/assets/stylesheets/neat";
 
 body {
