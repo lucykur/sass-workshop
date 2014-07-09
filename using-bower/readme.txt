@@ -1,2 +1,2 @@
 starting sass watch: 
-    sass --watch custom-lightbox/custom-lightbox.scss:custom-lightbox/custom-lightbox.css
+    sass --watch using-bower/app.scss:using-bower/app.css
