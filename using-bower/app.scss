@@ -10,8 +10,9 @@ body {
 }
 
 section {
-    @include media(all and (min-width 480px), 12) {
+    @include media(all and (min-width 480px), 12) { //480px width of iphone screen, 12 - grid columns
       @include span-columns(6); // default neat grid has a 12 column grid. span columns 6 means half the grid
+      font-size: 200%; //responsive typography
     }
 }
 

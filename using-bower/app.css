@@ -37,6 +37,7 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    font-size: 200%; }
     section:last-child {
       margin-right: 0; } }
