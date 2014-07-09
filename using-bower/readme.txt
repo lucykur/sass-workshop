@@ -5,3 +5,4 @@ Bower install(from any dir on the command line) : npm install -g bower
 Bower dependencies(from using-bower/ dir):  bower install bourbon neat
 
 import bower components in scss file
+neat.bourbon.io - help page for neat and bourbon

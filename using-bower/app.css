@@ -4,4 +4,18 @@
   box-sizing: border-box; }
 
 body {
-  background-color: grey; }
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+section {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  section:last-child {
+    margin-right: 0; }
