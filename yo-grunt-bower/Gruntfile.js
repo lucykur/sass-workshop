@@ -27,9 +27,6 @@ module.exports = function(grunt) {
         style: 'expanded'
       },
       '<%= yeoman.app %>/assets/css/styles.css': [
-        'bower_components/bourbon/dist/_bourbon.scss',
-        'bower_components/neat/app/assets/stylesheets/_neat.scss',
-        'bower_components/normalize-css/normalize.css',
         '<%= yeoman.app %>/sass/styles.scss'
       ]
     },
