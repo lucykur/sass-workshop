@@ -1,21 +1,28 @@
-// Import all the things
+@import '../../bower_components/bourbon/dist/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+@import '../../bower_components/normalize-css/normalize.css';
 
-// Base
+@mixin respond-to-lap-and-desk() {
+   @include media (all and (min-width 480px), 12) {
+     @content;
+   }
+}
 
-@import "base/settings";
-@import "base/helpers";
-@import "base/base";
-@import "base/content";
+header {
+    position: fixed; // header does not move when scrolling
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    color: white;
+    @include respond-to-lap-and-desk() {
+       position: static;
+    }
+}
 
-// Layout
-
-@import "layout/layout";
-
-// Modules
-
-@import "modules/buttons";
-@import "modules/media";
-
-// States
-
-@import "states/display";
+section {
+   @include respond-to-lap-and-desk(){
+       @include span-columns(6);
+    }
+}

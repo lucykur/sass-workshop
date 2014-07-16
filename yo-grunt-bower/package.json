@@ -2,7 +2,7 @@
   "name": "yo-grunt-example",
   "version": "0.0.1",
   "devDependencies": {
-    "generator-baseline": "~0.2.5"
+    "generator-baseline": "~0.2.5",
     "grunt": "~0.4.1",
     "grunt-contrib-cssmin": "~0.6.1",
     "grunt-contrib-jshint": "~0.6.3",
