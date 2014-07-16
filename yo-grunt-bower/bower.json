@@ -1,0 +1,9 @@
+{
+  "name": "yo-grunt-example",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-css": "latest",
+    "bourbon": "latest",
+    "jquery": "latest"
+  }
+}
