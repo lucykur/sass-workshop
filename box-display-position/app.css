@@ -1,0 +1,19 @@
+body {
+  margin: 0px; }
+
+* {
+  box-sizing: border-box; }
+
+.box-model {
+  display: inline-block;
+  width: 33%;
+  float: left;
+  width: 30%;
+  padding: 50px;
+  border: 50px solid red;
+  border-top-color: hotpink;
+  border-right-color: greenyellow;
+  border-bottom-color: green;
+  border-left-color: blueviolet;
+  background-color: #802e23;
+  outline: 25px solid rgba(0, 0, 255, 0.5); }
